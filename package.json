@@ -6,11 +6,11 @@
   "license": "see LICENSE file",
   "author": "Bangsheng Sui",
   "scripts": {
-    "clean": "npm run clean:build && npm run clean:node_modules",
-    "start": "./node_modules/.bin/nodemon",
+    "clean": "rimraf bundle.js",
+    "start": "webpack-dev-server --inline --content-base . --history-api-fallback --port 8000",
     "lint:eslint": "eslint .",
-    "build": "npm run clean:build && npm run build:server && npm run build:client:browser:prod && npm run build:client:ssr:prod",
-    "production": "NODE_ENV=production NODE_PATH=. node ./build/server.js"
+    "build": "npm run clean && webpack --config ./webpack.config.js --profile --colors",
+    "production": "./node_modules/.bin/babel-node --ignore node_modules ./server.js"
   },
   "dependencies": {
     "express": "~4.14.0",
@@ -19,7 +19,8 @@
     "react-router": "^3.0.0",
     "semantic-ui-react": "0.63.5",
     "serve-favicon": "2.3.0",
-    "webpack": "2.2.0"
+    "webpack": "2.2.0",
+    "webpack-dev-server": "^2.4.2"
   },
   "devDependencies": {
     "babel-cli": "~6.14.0",
