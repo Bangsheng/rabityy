@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "airbnb",
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "es6": true,
+    "classes": true
+  },
+
+  // custom rules
+  "rules": {
+    // allow slightly longer lines
+    "max-len": [2, 120, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+    }],
+
+    // This is a known bug: https://github.com/yannickcr/eslint-plugin-react/issues/871
+    "react/no-unused-prop-types": [0, {"skipShapeProps": true}],
+
+    // allow dev dependencies for unit tests
+    "import/no-extraneous-dependencies": [2, { "devDependencies": ["**/*.test.js", "**/*.mock.js"] }],
+
+    // reduce to warnings
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": [1, { "forbid": ['any', 'array', 'object'] }],
+
+    // turn off because mongo needs _
+    "no-underscore-dangle": [0],
+
+    // turn off as we need require and dynamic includes
+    "global-require": [0],
+    "import/no-dynamic-require": [0],
+
+    // until import plugin supports webpack 2 resolveModules
+    "import/no-unresolved": [0]
+  }
+}
