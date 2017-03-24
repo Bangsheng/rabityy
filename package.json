@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "license": "see LICENSE file",
-  "author": "Bangsheng Sui",
+  "author": "suibangsheng@gmail.com",
   "scripts": {
     "clean": "rimraf bundle.js",
     "start": "./node_modules/.bin/babel-node --ignore node_modules ./server.js",

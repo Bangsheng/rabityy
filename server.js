@@ -6,7 +6,7 @@ const compiler = webpack(webpackConfig);
 const port = process.env.PORT || 8000;
 const server = new WebpackDevServer(compiler, {
   contentBase: '.',
-  port: process.env.PORT || 8000,
+  port,
   compress: true,
   historyApiFallback: true,
   publicPath: '/public/',
