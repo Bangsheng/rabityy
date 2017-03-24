@@ -5,6 +5,9 @@
   "private": true,
   "license": "see LICENSE file",
   "author": "suibangsheng@gmail.com",
+  "engines": {
+    "node": "7.7.2"
+  },
   "scripts": {
     "clean": "rimraf bundle.js",
     "start": "./node_modules/.bin/babel-node --ignore node_modules ./server.js",
