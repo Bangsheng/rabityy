@@ -7,7 +7,7 @@
   "author": "Bangsheng Sui",
   "scripts": {
     "clean": "rimraf bundle.js",
-    "start": "webpack-dev-server --inline --content-base . --history-api-fallback --port 8000",
+    "start": "./node_modules/.bin/babel-node --ignore node_modules ./server.js",
     "lint:eslint": "eslint .",
     "build": "npm install",
     "production": "./node_modules/.bin/babel-node --ignore node_modules ./server.js"
