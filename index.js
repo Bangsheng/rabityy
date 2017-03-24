@@ -10,6 +10,12 @@ render((
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="test" component={Test} />
+      <Route
+        path="/*"
+        onEnter={(nextState, replace) => {
+          replace('/');
+        }}
+      />
     </Route>
   </Router>
 ), document.getElementById('app'));

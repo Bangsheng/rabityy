@@ -9,7 +9,7 @@
     "clean": "rimraf bundle.js",
     "start": "webpack-dev-server --inline --content-base . --history-api-fallback --port 8000",
     "lint:eslint": "eslint .",
-    "build": "npm run clean && webpack --config ./webpack.config.js --profile --colors",
+    "build": "npm install",
     "production": "./node_modules/.bin/babel-node --ignore node_modules ./server.js"
   },
   "dependencies": {
