@@ -6,7 +6,8 @@
   "license": "see LICENSE file",
   "author": "suibangsheng@gmail.com",
   "engines": {
-    "node": "7.7.2"
+    "node": "7.7.2",
+    "npm": "4.4.1"
   },
   "scripts": {
     "clean": "rimraf bundle.js",
