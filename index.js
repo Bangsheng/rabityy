@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
-import App from './components/layout';
-import Home from './components/home';
+import App from './components/Layout';
+import Home from './components/Home';
 import Test from './components/test';
 
 render((
