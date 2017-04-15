@@ -22,9 +22,10 @@ function Material() {
               </a>)
             </List.Item>
             <List.Item as="li">
+              Clinical Trials in the United States (
               <a href="ClinicalTrials.Gov">
                 ClinicalTrials.Gov
-              </a>
+              </a>)
             </List.Item>
           </List.List>
         </List.Item>
