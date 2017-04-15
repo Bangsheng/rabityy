@@ -1,4 +1,25 @@
+p {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
 .appContainer {
   margin: auto;
   max-width: 1000px;
+}
+
+.navBarContainer {
+  padding: 0.5em 0 0;
+}
+
+.navBarContainer a {
+  font-size: 1.2em;
+}
+
+.navText {
+  line-height: 1.2em;
+}
+
+.contentContainer {
+  padding: 2em 0;
 }
