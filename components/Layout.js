@@ -1,14 +1,23 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
 import Nav from './Nav';
 
 function Layout(props) {
   return (
-    <div
-      className="appContainer"
-    >
-      <Nav {...props} />
-      {props.children}
+    <div>
+      <div
+        className="navContainer"
+      >
+        <div className="centerContainer">
+          <Nav {...props} />
+        </div>
+      </div>
+      <div
+        className="appContainer"
+      >
+        <div className="centerContainer">
+          {props.children}
+        </div>
+      </div>
     </div>
   );
 }

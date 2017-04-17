@@ -54,7 +54,7 @@ function Material() {
               </a>)
             </List.Item>
             <List.Item as="li">
-              美国国立健康中心临床试验查询 （
+              美国临床试验信息查询 （
               <a href="ClinicalTrials.Gov">
                 ClinicalTrials.Gov
               </a>）
@@ -68,7 +68,7 @@ function Material() {
           </a>): 快速搜索每类癌症最新治疗方案及临床试验
         </List.Item>
         <List.Item as="li">
-          中文网站（
+          中国临床试验查询网站（
           <a href="http://www.chinadrugtrials.org.cn/eap/main">
             http://www.chinadrugtrials.org.cn/eap/main
           </a>)：药物临床试验登记与信息公示平台
