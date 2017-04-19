@@ -80,8 +80,13 @@ function Material() {
       <p>
         <List as="ol">
           <List.Item as="li">
-            <a href="/public/images/logo.pdf">
-              文章一
+            <a href="/public/articles/article1.pdf">
+              干货——精选2016年度FDA批准新药解析（上）发表时间：2017年3月25日
+            </a>
+          </List.Item>
+          <List.Item as="li">
+            <a href="/public/articles/article2.pdf">
+              干货——精选2016年度FDA批准新药解析（下）发表时间：2017年4月15日
             </a>
           </List.Item>
         </List>
