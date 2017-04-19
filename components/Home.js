@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Grid } from 'semantic-ui-react';
+import { Header, Grid, Image } from 'semantic-ui-react';
 
 function Home() {
   return (
@@ -35,10 +35,13 @@ function Home() {
             </p>
           </Grid.Column>
           <Grid.Column>
-            Image 1
+            <Image src="/public/images/image2.png" size="large" />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row columns={2}>
+          <Grid.Column>
+            <Image src="/public/images/image1.png" size="large" />
+          </Grid.Column>
           <Grid.Column>
             <Header as="h2">Educational material/补充资料</Header>
             <p>
@@ -46,9 +49,6 @@ function Home() {
               better understand their disease and potential treatments.<br /><br />
               通过查询来自文献，美国卫生及公共服务部，美国国立癌症中心的权威信息，帮助病人及家属认识了解疾病以及现有的治疗方法。
             </p>
-          </Grid.Column>
-          <Grid.Column>
-            Image 2
           </Grid.Column>
         </Grid.Row>
       </Grid>
