@@ -89,6 +89,16 @@ function Material() {
               干货——精选2016年度FDA批准新药解析（下）发表时间：2017年4月15日
             </a>
           </List.Item>
+          <List.Item as="li">
+            <a href="/public/articles/article3.pdf">
+              杜氏肌营养不良症(Duchenne muscular dystrophy)
+            </a>
+          </List.Item>
+          <List.Item as="li">
+            <a href="/public/articles/article4.pdf">
+              美国临床肿瘤学会年会纪要
+            </a>
+          </List.Item>
         </List>
       </p>
     </div>
