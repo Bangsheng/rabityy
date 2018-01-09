@@ -14,6 +14,7 @@ const server = new WebpackDevServer(compiler, {
   compress: true,
   historyApiFallback: true,
   publicPath: '/public/',
+  disableHostCheck: true,
 });
 
 server.listen(port, err => console.log(err));
