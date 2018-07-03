@@ -39,13 +39,13 @@ function Contact() {
       <Header as="h2">Contact Us/联系我们</Header>
       <p>
         Contact us at&nbsp;
-        <a href="mailto:daisy@bkghelper.com">
-          daisy@bkghelper.com
+        <a href="mailto:yanglu0815@gmail.com">
+          yanglu0815@gmail.com
         </a>
         &nbsp;if you need help obtaining information about specific disease.<br /><br />
         如果需要了解某种疾病但查询我们提供的网站有困难，可以写邮件联系我们寻求帮助:&nbsp;
-        <a href="mailto:daisy@bkghelper.com">
-          daisy@bkghelper.com
+        <a href="mailto:yanglu0815@gmail.com">
+          yanglu0815@gmail.com
         </a>
       </p>
     </div>
